@@ -11,4 +11,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # routes specification requires me to create
+
+  get "/ask", to: "questions#ask"
+  get "/answer", to: "questions#answer"
 end
